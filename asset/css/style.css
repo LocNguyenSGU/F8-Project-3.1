@@ -9,6 +9,7 @@ html {
 body {
    font-size: 1.6rem;
    font-family: 'Poppins', sans-serif;
+   background-color: #bbebeb;
 }
 
 /* Common */
@@ -88,4 +89,97 @@ a {
    margin-left: 80px;
 }
 
-/* hero */
+/* ======= hero ======= */
+.hero {
+   margin-top: 74px;
+   display: flex;
+   gap: 76px;
+}
+
+.hero .title {
+   width: 368px;
+}
+
+.hero .desc {
+   margin-top: 20px;
+   width: 341px;
+}
+
+.hero .row {
+   margin-top: 42px;
+   display: flex;
+   align-items: center;
+}
+
+.hero .btn {
+   padding: 15px 35px;
+}
+
+.hero .sub_icon {
+   margin-left: 36px;
+}
+.hero .icon {
+   margin-left: -20px;
+}
+
+.hero .sub_icon_text {
+   color: #152427;
+   text-align: center;
+   font-size: 1.5rem;
+   font-family: Poppins;
+   font-weight: 600;
+   line-height: 1.63;
+   margin-left: 9px;
+}
+
+.hero_img {
+   display: inline-block;
+   width: 202px;
+   height: 466px;
+   border-radius: 110px;
+   object-fit: cover;
+}
+
+.hero .block_img {
+   display: flex;
+   position: relative;
+   gap: 30px;
+   margin-left: -607px;
+}
+
+.hero_img:nth-child(2) {
+   position: absolute;
+   top: 77px;
+   left: 234px;
+}
+
+.hero_img:nth-child(3) {
+   position: absolute;
+   left: 464px;
+}
+
+.flower_1 {
+   position: absolute;
+   left: 444px;
+   top: 105px;
+}
+
+.sub_flower_1 {
+   z-index: 1;
+   position: relative;
+   top: -116px;
+    left: -148px;
+}
+
+.flower_2 {
+   position: relative;
+   left: -500px;
+   bottom: -280px;
+}
+
+.sub_flower_2 {
+   z-index: 1;
+   position: relative;
+   top: 182px;
+   left: -382px;
+}
