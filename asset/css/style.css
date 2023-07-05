@@ -77,9 +77,11 @@ a {
    font-size: 1.8rem;
    font-weight: 500;
    color: #575D5E;
+   cursor: pointer;
 }
 
 .nav ul a:hover {
+   text-shadow: 0.5px 0 0 currentColor;   
    color: black;
 }
 
@@ -161,14 +163,14 @@ a {
 
 .flower_1 {
    position: absolute;
-   left: 444px;
-   top: 105px;
+   left: 377px;
+   top: 121px;
 }
 
 .sub_flower_1 {
    z-index: 1;
    position: relative;
-   top: -116px;
+   top: -92px;
    left: -148px;
 }
 
@@ -392,7 +394,7 @@ a {
    height: 144px;
    position: absolute;
    top: 2383px;
-   left: 638px;
+   left: 592px;
 }
 
 .about .info {
@@ -796,6 +798,7 @@ a {
 
 .articles .btn:hover {
    background-color: #143C3C;
+   color: #fff;
 }
 
 .articles .img {
