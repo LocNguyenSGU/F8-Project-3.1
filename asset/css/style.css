@@ -81,7 +81,7 @@ a {
 }
 
 .nav ul a:hover {
-   text-shadow: 0.5px 0 0 currentColor;   
+   text-shadow: 0.5px 0 0 currentColor;
    color: black;
 }
 
@@ -867,30 +867,20 @@ a {
 }
 
 .footer .action {
+   display: flex;
+   justify-content: space-between;
    margin-top: 25px;
 }
 
 .footer .email {
-   width: 183px;
    background-color: transparent;
    outline: none;
-   width: 183px;
-   background-color: transparent;
+   border: none;
+   width: 280px;
    outline: none;
    color: #6A8383;
    font-size: 2.2rem;
    font-weight: 600;
-}
-
-.email::placeholder {
-   width: 183px;
-   background-color: transparent;
-   outline: none;
-   color: #6A8383;
-}
-
-.footer .arrow {
-   margin-left: 132px;
 }
 
 .footer .separate {
